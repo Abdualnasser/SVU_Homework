@@ -12,5 +12,7 @@ namespace SVU_Homework.Interfaces
         string Author { get; }
         bool IsAvailable { get; }
         void DisplayInfo();
+        void Borrow();
+        void Return();
     }
 }
